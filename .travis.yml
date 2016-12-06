@@ -1,6 +1,7 @@
 language: java
 notifications:
   email: false
+sudo: required
 script:
   - java -version
   - echo $JAVA_HOME

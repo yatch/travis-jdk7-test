@@ -1,4 +1,6 @@
 language: java
+notifications:
+  email: false
 script:
   - java -version
   - echo $JAVA_HOME

@@ -6,4 +6,5 @@ script:
   - java -version
   - echo $JAVA_HOME
   - which java
+  - sudo apt-get install realpath
   - realpath `which java`

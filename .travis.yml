@@ -5,3 +5,5 @@ sudo: required
 script:
   - java -version
   - echo $JAVA_HOME
+  - which java
+  - file `which java`
